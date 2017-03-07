@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UI-Demo_DaneWicki</string>
+    <string name="iAmAVerticallyLayout">Ich Bin ein Vertikales Layout</string>
+    <string name="iAmAHorizontalLayout">Ich Bin ein Horizontales Layout</string>
+    <string name="iAmARelativeLayout">Ich Bin ein Relative Layout</string>
+    <string name="titleLayout1">ASDF</string>
+</resources>
