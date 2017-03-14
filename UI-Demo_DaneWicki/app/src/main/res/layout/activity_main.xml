@@ -18,23 +18,92 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:onClick="openNewLayoutActivity">
 
             <RadioButton
-                android:text="RadioButton"
+                android:onClick="openNewLayoutActivity"
+                android:clickable="true"
+                android:text="Relative"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/radioButton4" />
+                android:id="@+id/relative" />
 
             <RadioButton
-                android:text="RadioButton"
+                android:onClick="openNewLayoutActivity"
+                android:text="Linear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/radioButton3"
+                android:id="@+id/absolute"
                 android:layout_weight="1" />
 
         </RadioGroup>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ViewsEvents3"
+            android:background="@color/purple"/>
+
+        <Button
+            android:id="@+id/viesAndEvents3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:onClick="openRatingBarActivity"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/OptionsMenu4"
+            android:background="@color/purple"/>
+
+        <Button
+            android:id="@+id/optionsMenu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disable" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SpinnerListActivity5"
+            android:background="@color/purple"/>
+
+        <Spinner
+            android:id="@+id/spinnerWithToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner"/>
+        <Button
+            android:id="@+id/spinnerAndListActivity5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disable" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ZustandsSpeicher6"
+            android:background="@color/purple"/>
+        <Button
+            android:onClick="incrementCounterAndShowAsToast"
+            android:id="@+id/Zustandsaenderung6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog7"
+            android:background="@color/purple"/>
+
+        <Spinner
+            android:id="@+id/dialogSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/dialogSpinner"/>
     </LinearLayout>
 
 </ScrollView>

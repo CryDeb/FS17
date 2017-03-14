@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">UI-Demo_DaneWicki</string>
+    <string name="app_name">UI-IN Schwiizerdütsch Dane Wicki</string>
     <string name="iAmAVerticallyLayout">Ich bin ein Vertikales Layout</string>
     <string name="iAmAHorizontalLayout">Ich bin ein Horizontales Layout</string>
     <string name="iAmARelativeLayout">Ich Bin ein Relative Layout</string>
@@ -9,7 +10,7 @@
     <string name="SpinnerListActivity5">5. Spinner und ListActivity</string>
     <string name="ZustandsSpeicher6">6. Zustandsspeicherung</string>
     <string name="dialog7">7. Dialoge</string>
-    <string name="disable">Disabled</string>
-    <string name="start">Start smth.</string>
-    <string name="save">inc count</string>
+    <string name="disable">Deaktiviärt!</string>
+    <string name="start">Start öbis!</string>
+    <string name="save">erhöche vo öbisem</string>
 </resources>
