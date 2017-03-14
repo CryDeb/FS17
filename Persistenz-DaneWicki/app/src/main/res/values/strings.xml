@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Persistenz-DaneWicki</string>
+    <string name="hsluMainTitle">HSLU Mobile Programming</string>
+    <string name="ApplicationPref">Application-Preferences</string>
+    <string name="mainActivityOnResume">MainActivity.onResume wurde seit der Installation dieser App %d mal aufgerufen</string>
+    <string name="editTeePreference">TEE-Preference Editieren</string>
+    <string name="defaultPrice">TEE Default-Preis setzten</string>
+    <string name="dateiSistem">Dateisystem</string>
+    <string name="useExternal">Externen Speicher benutzen</string>
+    <string name="externalIsMounted">External storage is mounted (writable)</string>
+    <string name="someTxt">Irgendein Text</string>
+    <string name="shouldTeeBeeSweeted">Soll der Tee gesüsst werden?</string>
+    <string name="sweetedTeaQuestion">Gesüsster Tee?</string>
+</resources>

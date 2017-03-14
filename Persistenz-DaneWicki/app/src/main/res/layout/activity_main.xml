@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ch.dane.wicki.persistenz_danewicki.MainActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/hsluMainTitle"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ApplicationPref"
+                android:background="@color/primaryGreen3"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/numbersOfOnResume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/favoriteTee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:onClick="startPreferenceActivity"
+                android:id="@+id/editTreePref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/editTeePreference" />
+            <Button
+                android:onClick="setTeaDefaultValues"
+                android:id="@+id/setDefaultPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/defaultPrice" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ApplicationPref"
+                android:background="@color/primaryGreen3"
+                android:padding="5dp"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/useExternal" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:text="@string/externalIsMounted" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:ems="8"
+                android:inputType="text"
+                android:text=""
+                android:shadowColor="@color/primaryGreen3"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_weight="0.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryGreen5"
+                    android:textAlignment="center"
+                    android:clickable="true"
+                    android:text="Save" />
+                <TextView
+                    android:clickable="true"
+                    android:id="@+id/textView3"
+                    android:layout_weight="0.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/primaryGreen5"
+                    android:textAlignment="center"
+                    android:text="Laden"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
